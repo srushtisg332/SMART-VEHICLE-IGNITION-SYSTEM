@@ -12,7 +12,7 @@ To improve vehicle security by replacing traditional keys with multi-level elect
 -Biometric Sensor (Fingerprint)
 -Communication Interfaces (UART/SPI)
 # System Working
--User scans RFID card or biometric input
+-User scans Face, RFID card and biometric input
 -Microcontroller verifies authentication
 -If valid, ignition is enabled
 -If invalid, ignition remains locked
