@@ -1,7 +1,7 @@
 
 ## 📌 Project Overview
 
-The Smart Vehicle Ignition System is a secure, keyless vehicle access system designed to prevent unauthorized ignition. It uses RFID and biometric authentication to allow ignition only when valid credentials are verified.
+The Smart Vehicle Ignition System is a secure, keyless vehicle access system designed to prevent unauthorized ignition. It uses Face, RFID and biometric authentication to allow ignition only when valid credentials are verified.
 
 ## 🎯 Objective
 
