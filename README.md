@@ -49,8 +49,8 @@ To improve vehicle security by replacing traditional keys with multi-level elect
 
 ## Code
 
-            Appendix B - Code 
             Dataset collection.py 
+            
             import cv2 
             import random 
             cam=cv2.VideoCapture(0) 
@@ -74,7 +74,9 @@ To improve vehicle security by replacing traditional keys with multi-level elect
             filename=f"./dataset/0/person{n}.jpg" 
             cv2.imwrite(filename,roi) 
             cam.release() 
+            
             Training.py 
+            
             ''' 
             in this file we extract features of 
             dataset and train the model using LBPH 
@@ -100,7 +102,9 @@ To improve vehicle security by replacing traditional keys with multi-level elect
             # cv2.imshow("img",image) 
             # cv2.waitKey() 
             i+=1 
+            
             Prediction.py 
+            
             import cv2 
             import numpy as np 
             from apidemo import insert 
